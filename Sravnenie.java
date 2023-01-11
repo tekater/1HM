@@ -9,12 +9,12 @@ public class Main {
             myArray[i] = scanner.nextInt();
         }
             int s = scanner.nextInt();
-            int sum = 1;
+            int sum = 0;
 		for (int a = 0; a < myArray.length; a++) {
             if (myArray[a] > s) {
                 sum = sum + myArray[a];
             }
         }
-		System.out.println(sum); // у меня получается на 1 больше чем в примере, я не понимаю как фиксить.
+		System.out.println(sum); 
     }
 }
